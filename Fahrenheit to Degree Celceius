@@ -1,0 +1,6 @@
+function toCelcius(f) {
+return (5/9) * (f-32);
+}
+
+let value = toCelcius(99);
+document.getElementedById("demo").innerHTML = value;
