@@ -1,0 +1,7 @@
+function calculateAge(birthYear, currentyear = 2024) {
+let age = currentYear - birthyear
+
+return age
+}
+
+console.log('Age: ', calculateAge(2006))
