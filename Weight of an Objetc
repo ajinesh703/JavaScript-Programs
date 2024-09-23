@@ -1,0 +1,6 @@
+function weightOfObject(mass, gravity = 9.80) {
+let weight = mass * gravity + ' N'
+return weight
+}
+
+console.log('Weight of an object in Newton: ',weightOfObject(100))
