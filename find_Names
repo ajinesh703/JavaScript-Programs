@@ -1,0 +1,5 @@
+const names = ['kishan', 'rama', 'vishal', 'singh']
+
+const name = names.find((name) => name.length <7)
+
+console.log(name)
